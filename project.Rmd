@@ -16,11 +16,7 @@ library(tidyverse)
 library(ggthemes)
 
 cc_belief_county <- read.table(
-<<<<<<< HEAD
   'https://bcdanl.github.io/data/cc_belief_county.csv',
-=======
-  'https://bcecon.github.io/cc_belief_county.csv',
->>>>>>> 81b8ee0b2e84075fc027400999399a63c8edc312
   sep = ',',
   header = TRUE,
   stringsAsFactor = TRUE
